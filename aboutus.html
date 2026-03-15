@@ -4,14 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Eat and Get Healthy</title>
+    <!--Bootstrap-->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <!--Mina egna anpassningar-->
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <!--Header-->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -19,6 +22,7 @@
             <img src="assets/logo.png" alt="Bootstrap" width="30" height="24" />
             Eat and Get Healthy
           </a>
+          <!--Knapp som visas när skärmen blir mindre-->
           <button
             class="navbar-toggler"
             type="button"
@@ -30,6 +34,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!--Länkar till olika delar av hemsidan-->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -69,6 +74,7 @@
                 </ul>
               </li>
             </ul>
+            <!--Sökruta-->
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
@@ -85,6 +91,7 @@
       </nav>
     </header>
     <main>
+      <!--Allmän text som berättar om bloggen och människorna bakom den-->
       <div class="container">
         <img src="assets/hero.webp" class="img-fluid" alt="..." />
         <h1 class="text-center mt-3">A Cooking Dream</h1>
@@ -132,10 +139,10 @@
       </div>
       <div class="container mt-3">
         <div class="row align-items-start">
-          <div class="col">
+          <div class="col" style="min-width: 20rem">
             <img src="assets/cooking.webp" class="img-fluid mt-2" alt="..." />
           </div>
-          <div class="col">
+          <div class="col" style="min-width: 40rem">
             <h2>More talking about food</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
@@ -166,9 +173,11 @@
         </div>
       </div>
     </main>
+    <!--Footer-->
     <footer class="text-bg-light p-3">
       <div class="card-group">
-        <div class="card" style="width: 18rem">
+        <!--Nyhetsbrev-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title"><u>Newsletter</u></h5>
             <p class="card-text">
@@ -190,7 +199,8 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <!--Länkar till vanliga sidor på hemsidan-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title"><u>Links</u></h5>
             <ul class="nav flex-column">
@@ -212,7 +222,8 @@
             </ul>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <!--Sociala medier och bloggens mail adress-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title pb-3"><u>Find us here</u></h5>
             <ul class="list-group">
@@ -250,6 +261,7 @@
         </div>
       </div>
     </footer>
+    <!--Bootstrap-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

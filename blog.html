@@ -4,14 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Eat and Get Healthy</title>
+    <!--Bootstrap-->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <!--Mina egna anpassningar-->
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <!--Header-->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -19,6 +22,7 @@
             <img src="assets/logo.png" alt="Bootstrap" width="30" height="24" />
             Eat and Get Healthy
           </a>
+          <!--Knapp som visas när skärmen blir mindre-->
           <button
             class="navbar-toggler"
             type="button"
@@ -30,6 +34,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!--Länkar till olika delar av hemsidan-->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -69,6 +74,7 @@
                 </ul>
               </li>
             </ul>
+            <!--Sökruta-->
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
@@ -86,58 +92,33 @@
     </header>
     <main>
       <div class="container">
+        <!--Kort för recept-->
         <div class="card my-5">
+          <!--Bild på rätten-->
           <img
             src="assets/food.webp"
             class="card-img-top w-25 mx-auto my-3"
             alt="..."
+            style="min-width: 25rem"
           />
           <div class="card-body">
             <div class="container">
               <div class="row">
                 <div class="col-3">
-                  <h6><u>Ingredients:</u></h6>
+                  <h6><u>Ingredients</u></h6>
                 </div>
                 <div class="col"><h5 class="card-title">Name of food</h5></div>
               </div>
               <div class="row">
                 <div class="col-3">
+                  <!--Lista över ingredienser-->
                   <ul class="list-group">
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="firstCheckbox"
-                      />
-                      <label class="form-check-label" for="firstCheckbox"
-                        >2 egg</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="secondCheckbox"
-                      />
-                      <label class="form-check-label" for="secondCheckbox"
-                        >2 dl flour</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="thirdCheckbox"
-                      />
-                      <label class="form-check-label" for="thirdCheckbox"
-                        >4 dl milk</label
-                      >
-                    </li>
+                    <li class="list-group-item p-2">2 egg</li>
+                    <li class="list-group-item p-2">2 dl flour</li>
+                    <li class="list-group-item p-2">4 dl milk</li>
                   </ul>
                 </div>
+                <!--Receptet-->
                 <div class="col">
                   <p class="card-text">
                     These are instructions for how to make the food
@@ -152,18 +133,20 @@
                     obcaecati molestias libero, iure doloribus. Doloremque neque
                     provident magnam nesciunt quam aspernatur esse eligendi
                     laudantium nostrum id cum ex eos, minima dicta repudiandae
-                    hic reprehenderit eius accusantium pariatur! Voluptates quas
-                    magnam, eveniet itaque distinctio illum aspernatur quia ab
-                    voluptas, aliquam sequi facere! Porro iusto optio magnam
-                    dolorum delectus cumque, provident, dolores aperiam odio
-                    aliquam quibusdam. Deserunt dolore quibusdam reprehenderit
-                    eius beatae, temporibus minima ipsam aperiam vitae quae
-                    consequuntur illum animi est ut quisquam consequatur maiores
-                    velit quas culpa obcaecati ratione! Quo quod quia
-                    accusantium voluptate ducimus eum, culpa quaerat eos eaque
-                    accusamus quibusdam error asperiores illo cum laudantium
-                    quas magni consectetur esse magnam dolore reprehenderit?
+                    hic reprehenderit eius accusantium pariatur! <br /><br />
+                    Voluptates quas magnam, eveniet itaque distinctio illum
+                    aspernatur quia ab voluptas, aliquam sequi facere! Porro
+                    iusto optio magnam dolorum delectus cumque, provident,
+                    dolores aperiam odio aliquam quibusdam. Deserunt dolore
+                    quibusdam reprehenderit eius beatae, temporibus minima ipsam
+                    aperiam vitae quae consequuntur illum animi est ut quisquam
+                    consequatur maiores velit quas culpa obcaecati ratione! Quo
+                    quod quia accusantium voluptate ducimus eum, culpa quaerat
+                    eos eaque accusamus quibusdam error asperiores illo cum
+                    laudantium quas magni consectetur esse magnam dolore
+                    reprehenderit?
                   </p>
+                  <!--Datum uppladdat-->
                   <p class="card-text">
                     <small class="text-body-secondary">Posted 2026-01-30</small>
                   </p>
@@ -172,60 +155,33 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
+        <!--Kort för recept-->
         <div class="card my-5">
+          <!--Bild på rätten-->
           <img
             src="assets/food.webp"
             class="card-img-top w-25 mx-auto my-3"
             alt="..."
+            style="min-width: 25rem"
           />
           <div class="card-body">
             <div class="container">
               <div class="row">
                 <div class="col-3">
-                  <h6><u>Ingredients:</u></h6>
+                  <h6><u>Ingredients</u></h6>
                 </div>
                 <div class="col"><h5 class="card-title">Name of food</h5></div>
               </div>
               <div class="row">
                 <div class="col-3">
+                  <!--Lista över ingredienser-->
                   <ul class="list-group">
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="firstCheckbox"
-                      />
-                      <label class="form-check-label" for="firstCheckbox"
-                        >2 egg</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="secondCheckbox"
-                      />
-                      <label class="form-check-label" for="secondCheckbox"
-                        >2 dl flour</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="thirdCheckbox"
-                      />
-                      <label class="form-check-label" for="thirdCheckbox"
-                        >4 dl milk</label
-                      >
-                    </li>
+                    <li class="list-group-item p-2">2 egg</li>
+                    <li class="list-group-item p-2">2 dl flour</li>
+                    <li class="list-group-item p-2">4 dl milk</li>
                   </ul>
                 </div>
+                <!--Receptet-->
                 <div class="col">
                   <p class="card-text">
                     These are instructions for how to make the food
@@ -240,18 +196,20 @@
                     obcaecati molestias libero, iure doloribus. Doloremque neque
                     provident magnam nesciunt quam aspernatur esse eligendi
                     laudantium nostrum id cum ex eos, minima dicta repudiandae
-                    hic reprehenderit eius accusantium pariatur! Voluptates quas
-                    magnam, eveniet itaque distinctio illum aspernatur quia ab
-                    voluptas, aliquam sequi facere! Porro iusto optio magnam
-                    dolorum delectus cumque, provident, dolores aperiam odio
-                    aliquam quibusdam. Deserunt dolore quibusdam reprehenderit
-                    eius beatae, temporibus minima ipsam aperiam vitae quae
-                    consequuntur illum animi est ut quisquam consequatur maiores
-                    velit quas culpa obcaecati ratione! Quo quod quia
-                    accusantium voluptate ducimus eum, culpa quaerat eos eaque
-                    accusamus quibusdam error asperiores illo cum laudantium
-                    quas magni consectetur esse magnam dolore reprehenderit?
+                    hic reprehenderit eius accusantium pariatur! <br /><br />
+                    Voluptates quas magnam, eveniet itaque distinctio illum
+                    aspernatur quia ab voluptas, aliquam sequi facere! Porro
+                    iusto optio magnam dolorum delectus cumque, provident,
+                    dolores aperiam odio aliquam quibusdam. Deserunt dolore
+                    quibusdam reprehenderit eius beatae, temporibus minima ipsam
+                    aperiam vitae quae consequuntur illum animi est ut quisquam
+                    consequatur maiores velit quas culpa obcaecati ratione! Quo
+                    quod quia accusantium voluptate ducimus eum, culpa quaerat
+                    eos eaque accusamus quibusdam error asperiores illo cum
+                    laudantium quas magni consectetur esse magnam dolore
+                    reprehenderit?
                   </p>
+                  <!--Datum uppladdat-->
                   <p class="card-text">
                     <small class="text-body-secondary">Posted 2026-01-30</small>
                   </p>
@@ -260,60 +218,33 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
+        <!--Kort för recept-->
         <div class="card my-5">
+          <!--Bild på rätten-->
           <img
             src="assets/food.webp"
             class="card-img-top w-25 mx-auto my-3"
             alt="..."
+            style="min-width: 25rem"
           />
           <div class="card-body">
             <div class="container">
               <div class="row">
                 <div class="col-3">
-                  <h6><u>Ingredients:</u></h6>
+                  <h6><u>Ingredients</u></h6>
                 </div>
                 <div class="col"><h5 class="card-title">Name of food</h5></div>
               </div>
               <div class="row">
                 <div class="col-3">
+                  <!--Lista över ingredienser-->
                   <ul class="list-group">
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="firstCheckbox"
-                      />
-                      <label class="form-check-label" for="firstCheckbox"
-                        >2 egg</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="secondCheckbox"
-                      />
-                      <label class="form-check-label" for="secondCheckbox"
-                        >2 dl flour</label
-                      >
-                    </li>
-                    <li class="list-group-item">
-                      <input
-                        class="form-check-input me-1"
-                        type="checkbox"
-                        value=""
-                        id="thirdCheckbox"
-                      />
-                      <label class="form-check-label" for="thirdCheckbox"
-                        >4 dl milk</label
-                      >
-                    </li>
+                    <li class="list-group-item p-2">2 egg</li>
+                    <li class="list-group-item p-2">2 dl flour</li>
+                    <li class="list-group-item p-2">4 dl milk</li>
                   </ul>
                 </div>
+                <!--Receptet-->
                 <div class="col">
                   <p class="card-text">
                     These are instructions for how to make the food
@@ -328,18 +259,20 @@
                     obcaecati molestias libero, iure doloribus. Doloremque neque
                     provident magnam nesciunt quam aspernatur esse eligendi
                     laudantium nostrum id cum ex eos, minima dicta repudiandae
-                    hic reprehenderit eius accusantium pariatur! Voluptates quas
-                    magnam, eveniet itaque distinctio illum aspernatur quia ab
-                    voluptas, aliquam sequi facere! Porro iusto optio magnam
-                    dolorum delectus cumque, provident, dolores aperiam odio
-                    aliquam quibusdam. Deserunt dolore quibusdam reprehenderit
-                    eius beatae, temporibus minima ipsam aperiam vitae quae
-                    consequuntur illum animi est ut quisquam consequatur maiores
-                    velit quas culpa obcaecati ratione! Quo quod quia
-                    accusantium voluptate ducimus eum, culpa quaerat eos eaque
-                    accusamus quibusdam error asperiores illo cum laudantium
-                    quas magni consectetur esse magnam dolore reprehenderit?
+                    hic reprehenderit eius accusantium pariatur! <br /><br />
+                    Voluptates quas magnam, eveniet itaque distinctio illum
+                    aspernatur quia ab voluptas, aliquam sequi facere! Porro
+                    iusto optio magnam dolorum delectus cumque, provident,
+                    dolores aperiam odio aliquam quibusdam. Deserunt dolore
+                    quibusdam reprehenderit eius beatae, temporibus minima ipsam
+                    aperiam vitae quae consequuntur illum animi est ut quisquam
+                    consequatur maiores velit quas culpa obcaecati ratione! Quo
+                    quod quia accusantium voluptate ducimus eum, culpa quaerat
+                    eos eaque accusamus quibusdam error asperiores illo cum
+                    laudantium quas magni consectetur esse magnam dolore
+                    reprehenderit?
                   </p>
+                  <!--Datum uppladdat-->
                   <p class="card-text">
                     <small class="text-body-secondary">Posted 2026-01-30</small>
                   </p>
@@ -350,9 +283,11 @@
         </div>
       </div>
     </main>
+    <!--Footer-->
     <footer class="text-bg-light p-3">
       <div class="card-group">
-        <div class="card" style="width: 18rem">
+        <!--Nyhetsbrev-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title"><u>Newsletter</u></h5>
             <p class="card-text">
@@ -374,7 +309,8 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <!--Länkar till vanliga sidor på hemsidan-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title"><u>Links</u></h5>
             <ul class="nav flex-column">
@@ -396,7 +332,8 @@
             </ul>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <!--Sociala medier och bloggens mail adress-->
+        <div class="card m-1" style="min-width: 15rem">
           <div class="card-body">
             <h5 class="card-title pb-3"><u>Find us here</u></h5>
             <ul class="list-group">
@@ -434,6 +371,7 @@
         </div>
       </div>
     </footer>
+    <!--Bootstrap-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
